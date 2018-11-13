@@ -1,0 +1,11 @@
+# COVSN
+
+Some attentions:
+
+1. This project is developed at Visual Studio 2013 platform. Other versions of Visual Studio may also be able to build it but not garanteed.
+
+2. CUDA 7.0 is required.
+
+3. Gurobi 6.5 is required.
+
+4. Some models are provided with the suffix of ply. 6 of them are used for the test of different GDSS approaches only and 6 are for the test of different SC approaches. When you test the different SC approaches, it is recommeded that you comment the code of S-GDSS in the main function (line 49 to 53) as it consumes too much time.
